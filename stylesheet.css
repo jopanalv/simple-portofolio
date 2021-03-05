@@ -1,0 +1,188 @@
+body {
+  font-family: "Avenir Next";
+  color:#404146;
+  margin:0;
+  padding:0;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  position:fixed;
+  width:100%;
+  background-color: #777BB4;
+  color: #fff;
+  height: 90px;
+  box-shadow: 0 5px 5px #bbbbbb;
+}
+
+.header-logo {
+  float: left;
+  padding: 25px 40px 25px 60px;
+}
+.header-logo a{
+  font-size: 30px;
+  color:#fff;
+  font-weight:normal;
+  letter-spacing: 5px;
+  text-decoration: none;
+}
+
+.header-list{
+  float:right;
+  padding-right:60px;
+}
+.header-list li {
+  float:left;
+  font-size: 20px;
+  padding:15px;
+}
+.header-list li:hover{
+  background-color:#585b85;
+  opacity:0.5;
+}
+
+.header-list a {
+  text-decoration: none;
+  color:#fff;
+  margin:5px
+}
+
+.copy-container {
+  padding:200px 120px 450px 120px;
+}
+.title{
+  float:left;
+}
+.copy-container h1 {
+  font-size: 90px;
+  margin-bottom: 0px;
+  letter-spacing: 5px;
+}
+
+.copy-container h2 {
+  font-size: 40px;
+  font-weight: normal;
+  margin-top:0;
+}
+
+.copy-container span {
+  color: #777BB4;
+}
+
+.image img {
+  height:300px;
+  float:right;
+}
+
+.about{
+  background-color:#777BB4;
+  color:#fff;
+  text-align:center;
+  padding:150px 200px 250px 200px;
+}
+.about-title{
+  font-size:35px;
+  border-bottom:3px solid #fff;
+  padding-bottom:15px;
+}
+.about p{
+  font-size:20px;
+  padding-top:20px;
+}
+
+.content{
+  padding:100px 200px 250px 200px;
+  text-align:center;
+}
+.content h3{
+  font-size:35px;
+  border-bottom:3px solid #404146;
+  padding-bottom:15px;
+}
+.item{
+  float:left;
+  width:33%;
+  padding-top:40px;
+} 
+.item p{
+  font-size:20px;
+}
+.item img{
+  height:250px;
+  box-shadow: 15px 15px 15px rgba(116, 116, 116, 0.5);
+}
+
+.contact{
+  padding:300px 200px 100px 200px;
+}
+.form{
+  float:left;
+  padding-top:20px;
+}
+.sosmed{
+  float:right;
+  padding-top:100px;
+  padding-right:110px;
+}
+input,textarea{
+  width:400px;
+  border-radius: 10px;
+  margin-top:10px;
+  margin-bottom:15px;
+  padding:15px 15px;
+  background-color:#dee7ec;
+}
+.contact h3{
+  font-size: 35px;
+  border-bottom:3px solid #404146;
+  padding-bottom:15px;
+  text-align:center;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.twitter {
+  background-color: #55acee;
+  text-decoration: none;
+}
+.instagram {
+  background-color: #eb3beb;
+  margin-right: 10px;
+  text-decoration: none;
+}
+.linkedin {
+  background-color: #3b5998;
+  text-decoration: none;
+}
+.fa {
+  margin-right: 5px;
+}
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+footer{
+  height:60px;
+  margin-top:400px;
+  background-color:#777BB4;
+}
+footer p{
+  font-size: 15px;
+  text-align:center;
+  color:#fff;
+  padding-top:20px;
+}
